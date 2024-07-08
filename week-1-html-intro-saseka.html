@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker Application</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the Expense Tracker Application</h1>
+    </header>
+    <!-- Main Content Section -->
+    <main>
+        <!-- Introduction Section -->
+        <section>
+            <h2>Track Your Expenses Efficiently</h2>
+            <p>Our application helps you manage your expenses and income seamlessly. Register below to get started!</p>
+        </section>
+
+        <!-- Registration Form Section -->
+        <section>
+            <h3>Registration Form</h3>
+            <form action="/register" method="POST">
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <input type="submit" value="Register">
+            </form>
+        </section>
+
+        <!-- User Information Table Section -->
+        <section>
+            <h3>Common User Information</h3>
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>john.doe@example.com</td>
+                    <td>(123) 456-7890</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>jane.smith@example.com</td>
+                    <td>(098) 765-4321</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Image Section -->
+        <section>
+            <h3>About the Application</h3>
+            <img src="https://via.placeholder.com/150" alt="Expense Tracker Image">
+        </section>
+
+        <!-- External Link Section -->
+        <section>
+            <p>For more information, visit <a href="https://google.com" target="_blank">Google</a>.</p>
+        </section>
+    </main>
+</body>
+</html>
